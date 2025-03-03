@@ -4,7 +4,7 @@
   fetchFromGitHub,
 }:
 
-mkDerivation rec {
+stdenv.mkDerivation rec {
   pname = "source-sans";
   version = "3.052";
 
